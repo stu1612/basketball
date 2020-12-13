@@ -45,11 +45,12 @@
   background: black;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   // @include flexAlignAround;
   // position: relative;
   // top: 5vh;
   width: 100%;
+  padding: 0 1em;
   // width: Min(70em, 60%);
   // left: 35%;
   // clip-path: polygon(0 0, 100% 0%, 100% 99%, 4% 100%);
@@ -59,22 +60,21 @@
 }
 
 #logo {
-  // background-color: white;
   height: 100%;
-  margin-left: 5em;
+  // margin-left: 5em;
   display: flex;
   align-items: center;
-  padding: 0 3em;
-  // clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  // padding: 0 3em;
   img {
     object-fit: contain;
-    height: 4em;
-    width: 4em;
+    height: 8vh;
   }
 }
 
 .social-links {
   flex: 1;
+  display: none;
+  justify-content: space-evenly;
 }
 
 .burger-menu {
@@ -82,7 +82,7 @@
   flex-direction: column;
   align-items: flex-end;
   .line {
-    height: 4px;
+    height: 2px;
     border-radius: 3px;
     width: 20px;
     background: white;
@@ -93,5 +93,26 @@
   }
   .line2 {
     width: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .burger-menu {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #logo {
+    background-color: white;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    padding: 0 3em;
+  }
+  .social-links {
+    display: flex;
   }
 }

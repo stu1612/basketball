@@ -36,6 +36,28 @@ const PageNav = () => {
             <a href='#0'>Contact</a>
           </li>
         </ul>
+        <ul className='social-links'>
+          <li>
+            <a href='#0' target='_blank'>
+              <img src={facebook} alt='social media icon' />
+            </a>
+          </li>
+          <li>
+            <a href='#0' target='_blank'>
+              <img src={instagram} alt='social media icon' />
+            </a>
+          </li>
+          <li>
+            <a href='#0' target='_blank'>
+              <img src={twitter} alt='social media icon' />
+            </a>
+          </li>
+          <li>
+            <a href='#0' target='_blank'>
+              <img src={youtube} alt='social media icon' />
+            </a>
+          </li>
+        </ul>
         <div className='burger-menu'>
           <div className='line line1'></div>
           <div className='line line2'></div>
@@ -47,26 +69,3 @@ const PageNav = () => {
 };
 
 export default PageNav;
-
-// <ul className='nav-links social-links'>
-//   <li>
-//     <a href='#0' target='_blank'>
-//       <img src={facebook} alt='social media icon' />
-//     </a>
-//   </li>
-//   <li>
-//     <a href='#0' target='_blank'>
-//       <img src={instagram} alt='social media icon' />
-//     </a>
-//   </li>
-//   <li>
-//     <a href='#0' target='_blank'>
-//       <img src={twitter} alt='social media icon' />
-//     </a>
-//   </li>
-//   <li>
-//     <a href='#0' target='_blank'>
-//       <img src={youtube} alt='social media icon' />
-//     </a>
-//   </li>
-// </ul>
