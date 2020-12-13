@@ -1,0 +1,23 @@
+.card-container {
+  background: white;
+  height: 100vh;
+  width: 80%;
+  margin: auto;
+}
+
+.cards-large {
+  @include flexAlignAround;
+  flex-wrap: wrap;
+
+  .card-large {
+    height: 70vh;
+    width: 400px;
+    background: cornflowerblue;
+  }
+}
+
+@media screen and (max-width: 1700px) {
+  .card-large {
+    height: 50vh;
+  }
+}

@@ -5,9 +5,11 @@ import header from '../img/header/header.jpg';
 const Header = () => {
   return (
     <header>
-      <img src={header} alt='' />
+      <div className='triangle'></div>
+      <h1>Team4Q</h1>
     </header>
   );
 };
 
 export default Header;
+// <img src={header} alt='' />

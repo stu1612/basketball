@@ -14,7 +14,17 @@ const DisplayNav = () => {
       <ul className='nav-links'>
         <li>
           <a href='#0' target='_blank'>
+            <img className='nav-img' src={direkten} alt='sponsor logo' />
+          </a>
+        </li>
+        <li>
+          <a href='#0' target='_blank'>
             <img className='nav-img' src={edument} alt='sponsor logo' />
+          </a>
+        </li>
+        <li>
+          <a href='#0' target='_blank'>
+            <img className='nav-img' src={swedbank} alt='sponsor logo' />
           </a>
         </li>
         <li>
@@ -24,27 +34,12 @@ const DisplayNav = () => {
         </li>
         <li>
           <a href='#0' target='_blank'>
-            <img className='nav-img' src={swedbank} alt='sponsor logo' />
-          </a>
-        </li>
-      </ul>
-      <div className='image'>
-        <img src={players} alt='t4q shirt sponsor advertisment' />
-      </div>
-      <ul className='nav-links'>
-        <li>
-          <a href='#0' target='_blank'>
-            <img className='nav-img' src={direkten} alt='sponsor logo' />
+            <img className='nav-img' src={sparbank} alt='sponsor logo' />
           </a>
         </li>
         <li>
           <a href='#0' target='_blank'>
             <img className='nav-img' src={loka} alt='sponsor logo' />
-          </a>
-        </li>
-        <li>
-          <a href='#0' target='_blank'>
-            <img className='nav-img' src={sparbank} alt='sponsor logo' />
           </a>
         </li>
       </ul>
@@ -53,3 +48,6 @@ const DisplayNav = () => {
 };
 
 export default DisplayNav;
+// <div className='image'>
+//   <img src={players} alt='t4q shirt sponsor advertisment' />
+// </div>
