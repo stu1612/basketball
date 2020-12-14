@@ -1,37 +1,20 @@
 import React from 'react';
+import CardLarge from './CardLarge';
+import CardSmall from './CardSmall';
+// import images
+import lakers from '../img/cards/sasa-with-lakers.jpg';
 
 const CardContainer = () => {
   return (
     <section className='card-container'>
-      <div className='cards-large'>
-        <div className='card-large'>
-          <div className='card-large__content'>
-            <div className='card-title'>
-              <h3>
-                <span>Mens Team</span> Lorem ipsum dolor sit amet.
-              </h3>
-            </div>
-            <div className='btn'>
-              <a href='#0' className='card-cta'>
-                Learn More
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className='card-large'>
-          <div className='card-large__content'>
-            <div className='card-title'>
-              <h3>
-                <span>Mens Team</span> Lorem ipsum dolor sit amet.
-              </h3>
-            </div>
-            <div className='btn'>
-              <a href='#0' className='card-cta'>
-                Learn More
-              </a>
-            </div>
-          </div>
-        </div>
+      <div className='cards-wrapper'>
+        <CardLarge title='Mens' />
+        <CardLarge title='Youth' />
+      </div>
+      <div className='cards-wrapper'>
+        <CardSmall title='Card 1' img={lakers} />
+        <CardSmall title='Card 2' />
+        <CardSmall title='Card 3' />
       </div>
     </section>
   );

@@ -1,23 +1,73 @@
+// Card container layout - GLOBAL STYLES
 .card-container {
   background: white;
-  height: 100vh;
-  width: 80%;
+  height: auto;
+  width: 95%;
   margin: auto;
+  padding: 2em 0;
 }
 
-.cards-large {
+.cards-wrapper {
   @include flexAlignAround;
   flex-wrap: wrap;
+}
 
-  .card-large {
-    height: 70vh;
-    width: 400px;
-    background: cornflowerblue;
+// Card Large
+.card-large {
+  height: 60vh;
+  width: 100%;
+  border: 1px solid black;
+}
+
+// Card Small
+.card-small {
+  height: 20vh;
+  border: 1px solid black;
+  width: 100%;
+  display: flex;
+
+  // &__wrapper {
+  //   display: flex;
+  // }
+  &__image {
+    height: 20vh;
+    width: 10em;
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
   }
 }
 
-@media screen and (max-width: 1700px) {
+//Media Queries
+@media screen and (min-width: 600px) {
   .card-large {
-    height: 50vh;
+    width: 40% !important;
+    height: 25em !important;
+  }
+  .card-small {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    width: 90%;
+  }
+  .card-small {
+    width: 23.5%;
+    height: 25em;
+    flex-direction: column;
+    &__image {
+      width: 100%;
+      height: 30vh;
+    }
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .card-container {
+    width: 70%;
   }
 }
