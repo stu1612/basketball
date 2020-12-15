@@ -1,6 +1,4 @@
 import React from 'react';
-// import images
-import header from '../img/header/header.jpg';
 
 const Header = () => {
   return (
@@ -12,4 +10,3 @@ const Header = () => {
 };
 
 export default Header;
-// <img src={header} alt='' />

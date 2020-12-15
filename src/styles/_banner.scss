@@ -1,0 +1,67 @@
+// Global banner styles
+.banner {
+  width: 100%;
+  height: 50vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+
+  &__inner {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    background-position: top;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.banner-support {
+  background-color: #e70e0e;
+  background: repeating-linear-gradient(
+    -45deg,
+    #040404,
+    #040404 10px,
+    #e70e0e 10px,
+    #e70e0e 50px
+  );
+
+  &__inner {
+    background: url(../img/general/fans.png), rgb(214, 14, 14);
+    background-blend-mode: hard-light;
+    background-position: center;
+    h2 {
+      color: white;
+    }
+  }
+}
+
+.banner-sponsor {
+  background-color: #040404;
+  background: repeating-linear-gradient(
+    45deg,
+    #e70e0e,
+    #e70e0e 10px,
+    #040404 10px,
+    #040404 50px
+  );
+
+  &__inner {
+    background: url(../img/general/sponsor.png), rgb(214, 14, 14);
+    background-blend-mode: multiply;
+    background-position: top;
+    h2 {
+      color: white;
+    }
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .banner {
+    width: 80%;
+  }
+}

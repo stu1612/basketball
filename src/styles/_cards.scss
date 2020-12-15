@@ -17,6 +17,9 @@
   height: 60vh;
   width: 100%;
   border: 1px solid black;
+  &__video {
+    height: 100%;
+  }
 }
 
 // Card Small
@@ -26,9 +29,6 @@
   width: 100%;
   display: flex;
 
-  // &__wrapper {
-  //   display: flex;
-  // }
   &__image {
     height: 20vh;
     width: 10em;
@@ -39,6 +39,8 @@
     }
   }
 }
+
+// Card Video
 
 //Media Queries
 @media screen and (min-width: 600px) {

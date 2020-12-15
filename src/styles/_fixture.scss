@@ -1,0 +1,34 @@
+.fixture {
+  width: 95%;
+  margin: auto;
+  background: url(../img/general/fixture.jpg), rgb(112, 38, 38);
+  background-blend-mode: hard-light;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__teams {
+    background-color: white;
+    width: 90%;
+    text-align: center;
+
+    .team h2 {
+      text-transform: uppercase;
+      font-size: 10vw;
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .fixture {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .fixture {
+    width: 70%;
+  }
+}
