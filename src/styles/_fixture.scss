@@ -1,25 +1,64 @@
 .fixture {
   width: 95%;
   margin: auto;
-  background: url(../img/general/fixture.jpg), rgb(112, 38, 38);
-  background-blend-mode: hard-light;
+  background: url(../img/general/fixture.jpg), #462f2f;
+  background-blend-mode: soft-light;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  flex-direction: column;
   &__teams {
-    background-color: white;
-    width: 90%;
+    padding: 0 1rem;
+    width: auto;
     text-align: center;
-
-    .team h2 {
-      text-transform: uppercase;
-      font-size: 10vw;
-      width: 100%;
+  }
+  &__schedule {
+    display: flex;
+    align-items: center;
+    img {
+      object-fit: contain;
+      width: 80px;
+      height: 80px;
+      margin-right: 2rem;
+    }
+    p {
+      color: white;
+      font-family: sans-serif;
+      font-size: 1.5rem;
     }
   }
+}
+
+.team h2 {
+  text-transform: uppercase;
+}
+
+.home h2 {
+  font-size: 10vw;
+  font-family: sans-serif;
+  color: white;
+  filter: drop-shadow(2px 4px 6px black);
+}
+.vs {
+  background-color: $red;
+  color: white;
+  font-weight: bolder;
+  font-size: large;
+  padding: 1rem 0;
+  font-family: sans-serif;
+}
+.away h2 {
+  padding: 1rem 0;
+  font-weight: 100;
+  color: white;
+  font-size: 3vw;
+  display: inline-block;
+  transform: scale(3.3, 1);
+  font-family: sans-serif;
+  filter: contrast(0.5);
 }
 
 @media screen and (min-width: 768px) {
