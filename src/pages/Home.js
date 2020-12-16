@@ -6,6 +6,7 @@ import BannerSupport from '../components/BannerSupport';
 import VideoContainer from '../components/VideoContainer';
 import BannerSponsor from '../components/BannerSponsor';
 import NextFixture from '../components/NextFixture';
+import Carousel from '../components/Carousel';
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <VideoContainer />
       <BannerSupport />
       <NextFixture />
+      <Carousel />
     </div>
   );
 };
