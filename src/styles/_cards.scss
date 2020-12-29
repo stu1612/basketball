@@ -54,6 +54,7 @@
   }
   &__video {
     height: 100%;
+    border-radius: $borderRadius;
   }
 }
 
@@ -94,6 +95,9 @@
 }
 
 // Card Video
+iframe {
+  border-radius: $borderRadius;
+}
 
 //Media Queries
 @media screen and (min-width: 600px) {

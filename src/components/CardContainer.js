@@ -12,13 +12,29 @@ const CardContainer = () => {
   return (
     <section className='card-container'>
       <div className='cards-wrapper'>
-        <CardLarge title='Mens: join the fight' img={mens} />
-        <CardLarge title='Youth: building the future' img={youth} />
+        <CardLarge btn='learn more' title='Mens: join the fight' img={mens} />
+        <CardLarge
+          btn='learn more'
+          title='Youth: building the future'
+          img={youth}
+        />
       </div>
       <div className='cards-wrapper'>
-        <CardSmall title='team4q journey to superettan' img={lakers} />
-        <CardSmall title='want to join us ? Just ask !' img={contact} />
-        <CardSmall title='want to join the team4q family ?' img={sponsor} />
+        <CardSmall
+          btn='learn more'
+          title='team4q journey to superettan'
+          img={lakers}
+        />
+        <CardSmall
+          btn='learn more'
+          title='want to join us ? Just ask !'
+          img={contact}
+        />
+        <CardSmall
+          btn='learn more'
+          title='want to join the team4q family ?'
+          img={sponsor}
+        />
       </div>
     </section>
   );

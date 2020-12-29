@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CardLarge = ({ title, img }) => {
+const CardLarge = ({ title, img, btn }) => {
   return (
     <div className='card-large'>
       <img src={img} alt='' />
@@ -8,11 +8,13 @@ const CardLarge = ({ title, img }) => {
         <div className='card-title'>
           <h3 className='title'>{title}</h3>
         </div>
-        <div className='btn'>
-          <a href='#0' className='cta'>
-            Learn More
-          </a>
-        </div>
+        {btn ? (
+          <div className='btn'>
+            <a href='#0' className='cta'>
+              {btn}
+            </a>
+          </div>
+        ) : null}
       </div>
     </div>
   );

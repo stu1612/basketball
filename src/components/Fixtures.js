@@ -17,18 +17,10 @@ const Fixtures = () => {
     { width: 1750, itemsToShow: 6 },
   ];
 
-  // function getBackgroundColor(status) {
-  //   const backgroundColorByStatus = {
-  //     win: 'green',
-  //     lose: 'red',
-  //     draw: 'grey',
-  //   };
-  // }
-
   return (
     <Carousel breakPoints={breakPoints}>
       {fixtures.map((fixture) => (
-        <SlideStyle>
+        <SlideStyle key={fixture.id}>
           <div className='top'>
             <img src={superetttan} alt='superettan logo' />
             <h3 className='superettan'>Supperettan</h3>

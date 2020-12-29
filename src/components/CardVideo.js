@@ -23,9 +23,9 @@ const CardVideo = () => {
             width='100%'
             height='100%'
             src='https://www.youtube.com/embed/JGhWYRP-ljM'
-            frameborder='0'
+            frameBorder='0'
             allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-            allowfullscreen
+            allowFullScreen
           ></iframe>
         </div>
       </div>

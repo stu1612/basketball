@@ -1,6 +1,9 @@
 import React from 'react';
 import CardVideo from './CardVideo';
 import CardLarge from './CardLarge';
+// import images
+import training from '../img/cards/youth-training.jpg';
+import performance from '../img/cards/performance.jpg';
 
 const VideoContainer = () => {
   return (
@@ -9,8 +12,8 @@ const VideoContainer = () => {
         <CardVideo />
       </div>
       <div className='cards-wrapper'>
-        <CardLarge />
-        <CardLarge />
+        <CardLarge img={training} />
+        <CardLarge img={performance} />
       </div>
     </div>
   );
