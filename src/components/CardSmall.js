@@ -8,16 +8,20 @@ const CardSmall = ({ title, img }) => {
       </div>
       <div className='card-small__content'>
         <div className='card-title'>
-          <h3>{title}</h3>
+          <h3 className='text'>{title}</h3>
         </div>
-        <div className='btn'>
-          <a href='#0' className='card-cta'>
-            Learn More
-          </a>
-        </div>
+        <a href='#0' className='cta'>
+          Learn More
+        </a>
       </div>
     </div>
   );
 };
 
 export default CardSmall;
+
+// <div className='btn'>
+//           <a href='#0' className='card-cta'>
+//             Learn More
+//           </a>
+//         </div>

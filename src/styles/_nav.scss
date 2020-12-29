@@ -1,7 +1,6 @@
 // global nav styles
 .nav-links {
   display: flex;
-  // align-items: center;
   justify-content: space-evenly;
   flex: 2;
   display: none;
@@ -18,14 +17,11 @@
   min-height: 5em;
   background: $white;
   @include flexAlignAround;
-  // display: none;
-  // overflow: hidden;
 
   .nav-img {
     object-fit: contain;
     width: 100px;
     height: 100px;
-    // filter: contrast(0.1);
   }
 }
 
@@ -46,25 +42,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  // @include flexAlignAround;
-  // position: relative;
-  // top: 5vh;
   width: 100%;
   padding: 0 1em;
-  // width: Min(70em, 60%);
-  // left: 35%;
-  // clip-path: polygon(0 0, 100% 0%, 100% 99%, 4% 100%);
-  // bottom: 1vh;
-  // left: 50%;
-  // transform: translate(-50%, -80%);
 }
 
 #logo {
   height: 100%;
-  // margin-left: 5em;
   display: flex;
   align-items: center;
-  // padding: 0 3em;
   img {
     object-fit: contain;
     height: 8vh;

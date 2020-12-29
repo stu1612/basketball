@@ -7,6 +7,7 @@ import VideoContainer from '../components/VideoContainer';
 import BannerSponsor from '../components/BannerSponsor';
 import NextFixture from '../components/NextFixture';
 import Fixtures from '../components/Fixtures';
+import SponsorContainer from '../components/SponsorContainer';
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <BannerSupport />
       <NextFixture />
       <Fixtures />
+      <SponsorContainer />
     </div>
   );
 };

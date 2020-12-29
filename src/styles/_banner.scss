@@ -15,8 +15,8 @@
     justify-content: center;
     background-position: top;
     align-items: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    // background-repeat: no-repeat;
+    // background-size: cover;
   }
 }
 
@@ -34,6 +34,8 @@
     background: url(../img/general/fans.png), rgb(214, 14, 14);
     background-blend-mode: hard-light;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     h2 {
       color: white;
     }
@@ -54,6 +56,8 @@
     background: url(../img/general/sponsor.png), rgb(214, 14, 14);
     background-blend-mode: multiply;
     background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
     h2 {
       color: white;
     }

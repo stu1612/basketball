@@ -1,22 +1,57 @@
 // Card container layout - GLOBAL STYLES
 .card-container {
-  background: white;
   height: auto;
   width: 95%;
   margin: auto;
-  padding: 2em 0;
 }
 
 .cards-wrapper {
   @include flexAlignAround;
   flex-wrap: wrap;
+  // margin: 2rem 0;
 }
 
 // Card Large
 .card-large {
-  height: 60vh;
+  // height: 60vh;
+  height: 90vh;
   width: 100%;
-  border: 1px solid black;
+  // border: 1px solid black;
+  position: relative;
+  border-radius: $borderRadius;
+  margin-bottom: 2em;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 20% 30%;
+    border-radius: $borderRadius;
+    //testing
+    mask-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 1) 66%,
+      rgba(0, 0, 0, 0.18531162464985995) 93%
+    );
+    -webkit-mask-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 1) 66%,
+      rgba(0, 0, 0, 0.18531162464985995) 93%
+    );
+
+    // z-index: 0;
+  }
+  .card-content {
+    // z-index: 10;
+    // background: white;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 5em;
+    // width: 100%;
+  }
   &__video {
     height: 100%;
   }
@@ -25,17 +60,35 @@
 // Card Small
 .card-small {
   height: 20vh;
-  border: 1px solid black;
+  // border: 1px solid black;
   width: 100%;
   display: flex;
+  background: $white;
+  border-radius: $borderRadius;
+  margin-bottom: 2em;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 
   &__image {
     height: 20vh;
-    width: 10em;
+    width: 9em;
     img {
       object-fit: cover;
       width: 100%;
+      min-width: 150px;
       height: 100%;
+      border-radius: $borderRadius;
+      object-position: top;
+      // flex: 2;
+    }
+  }
+
+  &__content {
+    margin-left: 1em;
+
+    .card-title {
+      padding: 1em 0;
     }
   }
 }
@@ -45,7 +98,7 @@
 //Media Queries
 @media screen and (min-width: 600px) {
   .card-large {
-    width: 40% !important;
+    width: 49% !important;
     height: 25em !important;
   }
   .card-small {
@@ -56,14 +109,31 @@
 @media screen and (min-width: 768px) {
   .card-container {
     width: 90%;
+    background: rgb(245, 245, 245);
+    padding: 2em 0;
+  }
+
+  .card-large .card-content {
+    height: 4em;
   }
   .card-small {
-    width: 23.5%;
+    width: 31.5%;
     height: 25em;
     flex-direction: column;
+    justify-content: space-around;
     &__image {
       width: 100%;
-      height: 30vh;
+      // height: 20vh;
+      flex: 2;
+      img {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+      }
+    }
+    &__content {
+      text-align: center;
+      margin-left: 0;
+      padding: 1em;
     }
   }
 }
@@ -71,5 +141,12 @@
 @media screen and (min-width: 1300px) {
   .card-container {
     width: 70%;
+  }
+
+  .card-large {
+    width: 46% !important;
+  }
+  .card-small {
+    width: 29.5%;
   }
 }

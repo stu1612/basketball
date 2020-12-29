@@ -1,5 +1,5 @@
 import React from 'react';
-// images
+//import images
 import edument from '../img/logos/edument.png';
 import intersport from '../img/logos/intersport.png';
 import swedbank from '../img/logos/swedbank.png';
@@ -7,7 +7,7 @@ import direkten from '../img/logos/direkten.png';
 import loka from '../img/logos/loka.png';
 import sparbank from '../img/logos/sparbank.png';
 
-const DisplayNav = () => {
+const SponsorContainer = () => {
   return (
     <nav className='display-nav'>
       <ul className='nav-links'>
@@ -46,4 +46,4 @@ const DisplayNav = () => {
   );
 };
 
-export default DisplayNav;
+export default SponsorContainer;

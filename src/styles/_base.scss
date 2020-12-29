@@ -1,12 +1,15 @@
-// Colors
-$black: #111111;
-$white: #fff;
-$red: #c70101;
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background: url(../img/general/body-img.jpeg), #cac7c7;
+  // background: url(../img/general/body-img.jpeg);
+  background-size: cover;
+  background-blend-mode: color-dodge;
+  background-attachment: fixed;
 }
 
 li,
@@ -15,9 +18,75 @@ a {
   text-decoration: none;
 }
 
-body {
-  background: url(../img/general/court.jpeg), #cac7c7;
-  background-size: cover;
-  background-blend-mode: color-dodge;
-  background-attachment: fixed;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1;
+}
+
+// Variables
+$borderRadius: 15px;
+
+// Colors
+$black: #111111;
+$lightBlack: #161616;
+$white: #fff;
+$red: #c70101;
+
+//  Typography
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Quicksand&display=swap');
+$oswald: 'Oswald', sans-serif;
+$quicksand: 'Quicksand', sans-serif;
+
+.title {
+  font-size: 1.6rem;
+  color: $black;
+  font-family: $oswald;
+  text-transform: uppercase;
+}
+
+.text {
+  font-size: 1rem;
+  color: $lightBlack;
+  font-family: $quicksand;
+  text-transform: uppercase;
+}
+
+// Buttons
+.cta {
+  font-family: $quicksand;
+  font-size: 0.8rem;
+  color: $white;
+  text-transform: uppercase;
+  background-color: $red;
+  padding: 0.5em 1em;
+  border-radius: $borderRadius;
+}
+// fixture carousel override styling
+.rec-carousel {
+  background: #dddddd;
+}
+
+.rec-arrow {
+  box-shadow: none !important;
+  background-color: $red !important;
+  color: white !important;
+  width: 20px !important;
+  min-width: 20px !important;
+  border-radius: 0% !important;
+}
+
+.rec-dot_active {
+  background-color: rgb(214, 149, 149) !important;
+  box-shadow: 0 0 1px 3px rgb(179, 29, 29) !important;
+}
+
+@media screen and (min-width: 600px) {
+  .rec-arrow {
+    width: 50px !important;
+    min-width: 50px !important;
+    border-radius: 50% !important;
+  }
 }

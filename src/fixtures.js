@@ -8,7 +8,7 @@ const fixtures = [
     away: 'Högsbo',
     time: false,
     result: '101-110',
-    class: 'lose',
+    status: 'lose',
     info: 'Important info !!',
   },
   {
@@ -20,7 +20,7 @@ const fixtures = [
     away: 'Team4Q',
     time: false,
     result: '127-104',
-    class: 'lose',
+    status: 'lose',
     info: 'some text',
   },
   {
@@ -32,7 +32,7 @@ const fixtures = [
     away: 'Uppsala',
     time: false,
     result: '86-90',
-    class: 'lose',
+    status: 'lose',
     info: 'some text',
   },
   {
@@ -44,7 +44,7 @@ const fixtures = [
     away: 'Wetterbygden',
     time: 'Postponed',
     result: '',
-    class: '',
+    status: '',
     info: 'some text',
   },
   {
@@ -56,7 +56,7 @@ const fixtures = [
     away: 'team4q',
     time: 'Postponed',
     result: '',
-    class: '',
+    status: '',
     info: 'some text',
   },
   {
@@ -68,7 +68,7 @@ const fixtures = [
     away: 'team4q',
     time: 'Postponed',
     result: '',
-    class: '',
+    status: '',
     info: 'some text',
   },
   {
@@ -80,7 +80,7 @@ const fixtures = [
     away: 'team4q',
     time: '13:00',
     result: '',
-    class: '',
+    status: '',
     info: 'some text',
   },
   {
@@ -92,7 +92,7 @@ const fixtures = [
     away: 'team4q',
     time: '15:00',
     result: '',
-    class: '',
+    status: '',
     info: 'some text',
   },
   {
@@ -104,7 +104,7 @@ const fixtures = [
     away: 'trelleborg',
     time: '15:00',
     result: '',
-    class: '',
+    status: '',
     info: 'some text',
   },
   {
@@ -116,7 +116,7 @@ const fixtures = [
     away: 'team4q',
     time: '16:30',
     result: '',
-    class: '',
+    status: '',
     info: 'some text',
   },
   {
@@ -128,7 +128,7 @@ const fixtures = [
     away: 'alvik',
     time: '15:00',
     result: '',
-    class: '',
+    status: '',
     info: 'some text',
   },
   {
@@ -140,7 +140,7 @@ const fixtures = [
     away: 'team4q',
     time: '15:30',
     result: '',
-    class: '',
+    status: '',
     info: 'some text',
   },
   {
@@ -152,7 +152,7 @@ const fixtures = [
     away: 'IK EOS',
     time: '15:00',
     result: '',
-    class: '',
+    status: '',
     info: 'some text',
   },
   {
@@ -164,7 +164,7 @@ const fixtures = [
     away: 'team4q',
     time: '15:00',
     result: '',
-    class: '',
+    status: '',
     info: 'some text',
   },
   {
@@ -176,7 +176,7 @@ const fixtures = [
     away: 'kalmar',
     time: '13:00',
     result: '',
-    class: '',
+    status: '',
     info: 'some text',
   },
   {
@@ -188,7 +188,7 @@ const fixtures = [
     away: 'team4q',
     time: '16:00',
     result: '',
-    class: '',
+    status: '',
     info: 'some text',
   },
   {
@@ -200,7 +200,7 @@ const fixtures = [
     away: 'norrort',
     time: '15:00',
     result: '',
-    class: '',
+    status: '',
     info: 'some text',
   },
   {
@@ -212,7 +212,7 @@ const fixtures = [
     away: 'team4q',
     time: '16:00',
     result: '',
-    class: '',
+    status: '',
     info: 'some text',
   },
   {
@@ -224,7 +224,7 @@ const fixtures = [
     away: 'RIG Mark',
     time: '15:00',
     result: '',
-    class: '',
+    status: '',
     info: 'some text',
   },
   {
@@ -236,7 +236,7 @@ const fixtures = [
     away: 'team4q',
     time: '14:00',
     result: '',
-    class: '',
+    status: '',
     info: 'some text',
   },
   {
@@ -248,7 +248,7 @@ const fixtures = [
     away: 'team4q',
     time: '15:00',
     result: '',
-    class: '',
+    status: '',
     info: 'some text',
   },
   {
@@ -260,7 +260,7 @@ const fixtures = [
     away: 'aik',
     time: '11:30',
     result: '',
-    class: '',
+    status: '',
     info: 'some text',
   },
 ];
