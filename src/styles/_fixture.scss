@@ -1,10 +1,13 @@
 .fixture {
   width: 95%;
   margin: auto;
-  background: url(../img/general/fixture.jpg), #462f2f;
-  background-blend-mode: soft-light;
+  // background: url(../img/general/t4q-teamphoto.jpg), #462f2f;
+  // background-blend-mode: soft-light;
+  background: url(../img/general/fixture-banner.png);
+
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 100vh;
   display: flex;
   justify-content: space-evenly;
