@@ -1,67 +1,28 @@
 .fixture {
   width: 95%;
-  margin: auto;
-  // background: url(../img/general/t4q-teamphoto.jpg), #462f2f;
-  // background-blend-mode: soft-light;
+  margin: 0 auto 4em;
   background: url(../img/general/fixture-banner.png);
-
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: column;
+
   &__teams {
-    padding: 0 1rem;
-    width: auto;
-    text-align: center;
-  }
-  &__schedule {
+    height: 70%;
+    width: 80%;
+    margin: auto;
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
-    img {
-      object-fit: contain;
-      width: 80px;
-      height: 80px;
-      margin-right: 2rem;
-    }
-    p {
+    flex-direction: column;
+
+    h2 {
+      font-size: 8rem;
       color: white;
-      font-family: sans-serif;
-      font-size: 1.5rem;
+      text-transform: uppercase;
     }
   }
-}
-
-.team h2 {
-  text-transform: uppercase;
-}
-
-.home h2 {
-  font-size: 10vw;
-  font-family: sans-serif;
-  color: white;
-  filter: drop-shadow(2px 4px 6px black);
-}
-.vs {
-  background-color: $red;
-  color: white;
-  font-weight: bolder;
-  font-size: large;
-  padding: 1rem 0;
-  font-family: sans-serif;
-}
-.away h2 {
-  padding: 1rem 0;
-  font-weight: 100;
-  color: white;
-  font-size: 3vw;
-  display: inline-block;
-  transform: scale(3.3, 1);
-  font-family: sans-serif;
-  filter: contrast(0.5);
 }
 
 @media screen and (min-width: 768px) {
