@@ -99,7 +99,8 @@
   // new
   height: 50vh !important;
   width: 80% !important;
-  margin-left: 11em !important;
+  margin: auto;
+  // margin-left: 11em !important;
   //old
   background: url(../img/general/sponsor.png), rgb(214, 14, 14);
   background-blend-mode: multiply;
@@ -109,7 +110,7 @@
   //from default
   width: 90%;
   height: 90%;
-  display: flex;
+  display: flex !important;
   justify-content: center;
   background-position: top;
   align-items: center;
