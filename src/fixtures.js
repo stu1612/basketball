@@ -133,7 +133,8 @@ const fixtures = [
   },
   {
     id: '12',
-    date: 'Lördag 9 Januari',
+    // date: 'Lördag 9 Januari',
+    date: 'Sat Jan 09 2021',
     place: 'Gothia Arena 2',
     home: 'högsbo',
     vs: 'vs',
@@ -145,7 +146,8 @@ const fixtures = [
   },
   {
     id: '13',
-    date: 'Söndag 17 Januari',
+    // date: 'Söndag 17 Januari',
+    date: 'Sun Jan 17 2021',
     place: 'GA-Hallen, HBG',
     home: 'team4q',
     vs: 'vs',
@@ -157,7 +159,8 @@ const fixtures = [
   },
   {
     id: '14',
-    date: 'Lördag 23 Januari',
+    // date: 'Lördag 23 Januari',
+    date: 'Sat Jan 23 2021',
     place: 'Sportcenter A, Kalmar',
     home: 'kalmar',
     vs: 'vs',
@@ -169,7 +172,8 @@ const fixtures = [
   },
   {
     id: '15',
-    date: 'Söndag 31 Januari',
+    // date: 'Söndag 31 Januari',
+    date: 'Sun Jan 31 2021',
     place: 'GA-Hallen, HBG',
     home: 'team4q',
     vs: 'vs',
@@ -181,7 +185,8 @@ const fixtures = [
   },
   {
     id: '16',
-    date: 'Söndag 7 Februari',
+    // date: 'Söndag 7 Februari',
+    date: 'Sun Feb 07 2021',
     place: 'Upplands Bilforum USIF Arena',
     home: 'uppsala',
     vs: 'vs',
@@ -193,7 +198,8 @@ const fixtures = [
   },
   {
     id: '17',
-    date: 'Lördag 13 Februari',
+    // date: 'Lördag 13 Februari',
+    date: 'Sat Feb 13 2021',
     place: 'GA-Hallen, HBG',
     home: 'team4q',
     vs: 'vs',
@@ -205,7 +211,8 @@ const fixtures = [
   },
   {
     id: '18',
-    date: 'Lördag 20 Februari',
+    // date: 'Lördag 20 Februari',
+    date: 'Sat Feb 20 2021',
     place: 'kuxahallen',
     home: 'ockelbo',
     vs: 'vs',
@@ -217,7 +224,8 @@ const fixtures = [
   },
   {
     id: '19',
-    date: 'Lördag 27 Februari',
+    // date: 'Lördag 27 Februari',
+    date: 'Sat Feb 27 2021',
     place: 'GA-Hallen',
     home: 'team4q',
     vs: 'vs',
@@ -229,7 +237,8 @@ const fixtures = [
   },
   {
     id: '20',
-    date: 'Lördag 6 Mars',
+    // date: 'Lördag 6 Mars',
+    date: 'Sat May 06 2021',
     place: 'Åkeshovshallen',
     home: 'alvik',
     vs: 'vs',
@@ -241,7 +250,8 @@ const fixtures = [
   },
   {
     id: '21',
-    date: 'Lördag 13 Mars',
+    // date: 'Lördag 13 Mars',
+    date: 'Sat May 13 2021',
     place: 'Västervångshallen',
     home: 'trelleborg',
     vs: 'vs',
@@ -253,7 +263,8 @@ const fixtures = [
   },
   {
     id: '22',
-    date: 'Lördag 13 Mars',
+    // date: 'Lördag 13 Mars',
+    date: 'Sat May 23 2021',
     place: 'GA-Hallen, HBG',
     home: 'team4q',
     vs: 'vs',

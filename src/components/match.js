@@ -1,19 +1,39 @@
 import React from 'react';
 
-const Match = ({ fixture }) => {
-  if (fixture.id === '1') {
-    return (
-      <div className='fixture'>
-        <div className='fixture__teams'>
-          <h2 className='home'>{fixture.home}</h2>
-          <h4>2021.01.16 - GA Hallen, HBG @ 16:00 </h4>
-          <h2 className='away'>{fixture.away}</h2>
-        </div>
+const Match = () => {
+  // let d = Date();
+  // let a = d.toString();
+  //   console.log(a);
+  //   console.log(fixture);
+
+  //   function setTime() {
+  //     if (fixture.date === 'Postponed') {
+  //       return null;
+  //     }
+  //     if (fixture.date > a) {
+  //       console.log(fixture.date);
+  //     }
+  //   }
+
+  //   setTime();
+
+  //   if (a < fixture.date) {
+
+  //   let box = [];
+  //   if (fixture.date > a) {
+  //     box.push(fixture.date);
+  //     console.log(box);
+  //   }
+
+  return (
+    <div className='fixture'>
+      <div className='fixture__teams'>
+        <h2 className='home'>team4q</h2>
+        <h4>wed 23rd 2021</h4>
+        <h2 className='away'>hbg</h2>
       </div>
-    );
-  } else {
-    return null;
-  }
+    </div>
+  );
 };
 
 export default Match;
